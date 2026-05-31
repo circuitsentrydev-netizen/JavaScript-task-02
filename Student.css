@@ -1,0 +1,24 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background-color: #f0f2f5; color: #333; padding: 40px 16px; }
+.container { max-width: 560px; margin: 0 auto; }
+h1 { text-align: center; margin-bottom: 28px; font-size: 1.8rem; color: #1a1a2e; }
+.form-section { background: #fff; border: 1px solid #dde1e7; border-radius: 8px; padding: 28px 32px; margin-bottom: 24px; }
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 6px; }
+.form-group input { width: 100%; padding: 10px 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 0.95rem; }
+.form-group input:focus { border-color: #4a90d9; outline: none; }
+button#submitBtn { width: 100%; padding: 12px; background-color: #2563eb; color: #fff; border: none; border-radius: 5px; font-size: 1rem; font-weight: 600; cursor: pointer; }
+button#submitBtn:hover { background-color: #1d4ed8; }
+.result-section { background: #fff; border: 1px solid #dde1e7; border-radius: 8px; padding: 22px 28px; margin-bottom: 24px; min-height: 80px; }
+.result-section .placeholder { color: #999; font-size: 0.9rem; }
+.result-section p.result-line { font-size: 0.95rem; line-height: 1.8; }
+.result-section .pass { font-weight: 700; color: #16a34a; }
+.result-section .fail { font-weight: 700; color: #dc2626; }
+.result-section .error { color: #dc2626; font-size: 0.9rem; }
+.list-section { background: #fff; border: 1px solid #dde1e7; border-radius: 8px; padding: 22px 28px; }
+.list-section h2 { font-size: 1.1rem; margin-bottom: 14px; color: #1a1a2e; }
+#studentList { list-style: none; padding: 0; }
+#studentList li { border-bottom: 1px solid #eee; padding: 12px 0; font-size: 0.9rem; line-height: 1.7; }
+#studentList li:last-child { border-bottom: none; }
+#studentList .list-result-pass { font-weight: 700; color: #16a34a; }
+#studentList .list-result-fail { font-weight: 700; color: #dc2626; }
